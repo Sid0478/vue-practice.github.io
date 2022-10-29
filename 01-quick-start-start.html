@@ -9,12 +9,13 @@
 
     <body>
         <div id="app">
-            <h2>{{count}}</h2>
+            <h2>{{typeof count}}</h2>
             <hr>
-            <p>{{name}}{{kind}}</p>
-            <div>{{array}}</div>
+            <p>{{name}}想吃{{kind}}</p>
+
+            <div>{{array.length}}</div>
             <div>{{txt}}</div>
-            <div>{{talk}}</div>
+            <div>{{talk ? '愛說話':'怎樣'}}</div>
 
         </div>
 
